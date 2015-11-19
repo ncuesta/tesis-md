@@ -1,3 +1,0 @@
-# Speca
-
-https://speca.io

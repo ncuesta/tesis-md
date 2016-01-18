@@ -35,6 +35,8 @@ Al momento de escritura del presente trabajo, API Umbrella está en desarrollo a
 
 Es decir, no se recomienda su uso en ambientes de producción aún.
 
+> NOTA: OJO QUE ESTO YA NO ES ASÍ, PERO NO ESTÁ PROBADO EN PRODUCCIÓN COMO KONG.
+
 ## Conclusión
 
 API Umbrella se ve muy prometedor, es un producto más grande que otros que hemos analizado como Kong, lo cual da soporte para algunas características que no están presentes en el resto, como el uso de Varnish como cache compartida dentro del mismo Proxy, pero presenta un gran inconveniente para considerarlo como una opción en nuestra arquitectura: su nivel de madurez. En el diseño final para la nube de servicios necesitamos utilizar herramientas estables, listas para ser utilizadas en servicios en producción.
